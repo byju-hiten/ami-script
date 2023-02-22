@@ -1,0 +1,16 @@
+{
+  "name": "get-images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh ./image-script.sh && node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
