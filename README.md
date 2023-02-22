@@ -1,6 +1,17 @@
 ## Script to generate AMI having Volume Type g2 or g3 or both. 
 #### Generates .xlsx which contains AMI ImageId, ImageName, VolumeType and Owner. 
 
+## Requirements 
+```
+node & npm
+aws-cli
+```
+Links to download - 
+- [aws-cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [node official page](https://nodejs.org/en/download/) or install nvm.
+
+Add credentials of all profiles to ~/.aws/credentials . For more information about [aws profiles](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+
 ## Installation
 
 ```
